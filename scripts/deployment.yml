@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: book-catalog
-        image: <your-docker-image>:latest
+        image: book_catalog:latest
         ports:
         - containerPort: 8000
         env:
